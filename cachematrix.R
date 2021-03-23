@@ -1,7 +1,7 @@
 ## makeCacheMatrix takes a square matrix and cache the inverse
 ## of the matrix for retrieval by cacheSolve
 makeCacheMatrix <- function(x = matrix()) {
-    cache <- NULL           # initial cache as NULL
+    cache <- NULL           # initiate cache as NULL
     set <- function(y) {    # function to set the matrix   
         x <<- y             # updates matrix
         cache <<- NULL      # updates cache
